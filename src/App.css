@@ -1,0 +1,505 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Neumatic Gothic Black";
+  font-family: "Montserrat", sans-serif;
+  a{
+    text-decoration: none;
+    color: black;
+  }
+}
+nav{
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ADEFD1FF;
+  h1{
+    margin-left: 62px;
+    font-size: 34px;
+    font-family: "Neumatic Gothic Black";
+    /* color: #00203FFF; */
+  }
+}
+.links{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-right: 100px;
+  a{
+    font-size: 14px;
+    color: #111;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  img{
+    cursor: pointer;
+  }
+  button{
+    width: 90px;
+    height: 35px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    background-color: #00203FFF;
+    a{
+      font-weight: 500;
+      color: #ADEFD1FF;
+      text-transform: capitalize;
+      font-size: 16px;
+    }
+  }
+}
+#landing{
+  width: 100%;
+  /* min-height: 700px; */
+  min-height: 87vh;
+  background-color: #ADEFD1FF;
+  /* background-color: rgba(173, 239, 209, 0.562); */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+  gap: 130px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+
+  #text{
+    margin-right: 35px;
+    margin-left: 65px;
+  }
+  h2{
+    font-family: "Neumatic Gothic Black";
+    font-family: "Gothic A1", sans-serif;
+    font-size: 18px;
+    font-weight: 600 !important;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-left: -2px;
+    
+  }
+  h1{
+    font-family: "Neumatic Gothic Black";
+    font-size: 94px;
+   margin-left: -4px;
+    /* font-weight: 900; */
+    text-transform: uppercase;
+  }
+  p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 15px;
+    /* margin-left: 2px; */
+  }
+  .para{
+    margin-top: 25px;
+  }
+  button{
+    /* margin-left: 4px; */
+    font-size: 12px;
+    margin-top: 40px;
+    cursor: pointer;
+    width: 120px;
+    height: 45px;
+    background-color: #00203FFF;
+    color: #ADEFD1FF;
+    border: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 4px;
+  }
+  
+  .shirtimage{
+    height: 500px;
+    margin-right: 90px;
+  }
+
+}
+
+.featureheading{
+  margin-left: 60px;
+  margin-top: 30px;
+  color: #00203FFF;
+  font-size: 40px;
+  font-family: "Neumatic Gothic Black";
+  position: relative;
+  
+}
+.featureheading::before{
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 2px;
+  width: 55px;
+  height: 5px;
+  background-color: #ADEFD1FF;
+}
+#feature{
+  width: 100%;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* background-color: #00203FFF; */
+}
+.feturecard{
+  width: 300px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 5px;
+  border-radius: 10px;
+  /* background-color: #ADEFD1FF; */
+  /* border: 1px solid #ADEFD1FF; */
+  img{
+    margin-top: 20px;
+    height: 50px;
+  }
+  p{
+    text-align: center;
+  }
+}
+.trendtitle{
+  margin-left: 60px;
+  margin-top: 30px;
+  color: #00203FFF;
+  font-size: 40px;
+  font-family: "Neumatic Gothic Black";
+  position: relative;
+}
+.trendtitle::before{
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 4px;
+  width: 55px;
+  height: 5px;
+  background-color: #ADEFD1FF;
+}
+
+#trendingsproduct{
+  margin-top: 30px;
+    width: 100%;
+    min-height: 400px;
+    /* background-color: #00203FFF; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+
+
+
+
+
+
+
+.producthead{
+  font-size: 26px;
+  margin-left: 60px;
+  margin-top: 40px;
+  color: #00203FFF;
+  font-size: 40px;
+  font-family: "Neumatic Gothic Black";
+  position: relative;
+ 
+}
+.producthead::before{
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 2px;
+  width: 55px;
+  height: 5px;
+  background-color: #ADEFD1FF;
+}
+#products{
+  /* margin-top: 500px; */
+  min-height: 800px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  gap: 20px;
+}
+.productcard{
+  color: black;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 14px;
+  position: relative;
+  padding: 8px;
+  margin-top: 20px;
+  width: 250px;
+ height: 360px;
+ border: 1px solid rgba(211, 211, 211, 0.336);
+ border-radius: 10px;
+  /* background-color: rgba(173, 239, 209, 0.233); */
+  
+  .img{
+    padding: 40px;
+  }
+  img{
+    height: 150px;
+    width: 100%;
+  }
+  .text{
+    margin-left: 10px;
+    h1{
+      font-size: 18px;
+      font-weight: 500;
+      margin-top: 10px;
+    }
+    h3{
+      font-size: 16px;
+      font-weight: 500;
+      margin-top: 20px;
+      color: #00203FFF;
+      font-weight: bold;
+    }
+    button{
+      position: absolute;
+      bottom: 5px;
+      /* top: 5px; */
+      margin-top: 15px;
+      width: 120px;
+      height: 40px;
+      cursor: pointer;
+      border: none;
+      background-color: #00203FFF;
+      color: #ADEFD1FF;
+      border-radius: 4px;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+/* .productcard:hover{
+  transition: 0.4s;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+} */
+
+#productdetail{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 20px;
+  border-radius: 10px;
+  width: 87%;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* background-color: rgba(173, 239, 209, 0.233); */
+  /* margin: 0 auto; */
+  margin-left: 60px;
+  margin-top: 50px;
+  border: 1px solid rgba(211, 211, 211, 0.336);
+}
+.detailimg{ 
+  /* background-color: ; */
+  padding: 10px;
+  height: 400px;
+  width: 400px;
+  /* background-color: aqua; */
+ img{
+  height: 400px;
+  width: 400px;
+ }
+}
+.detailtext{
+
+  width: 40%;
+/* background-color: #00203FFF; */
+padding: 10px;
+  h1{
+    font-size: 30px;
+    font-weight: 500;
+  }
+  p{
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 2;
+    
+  }
+  h3{
+    margin-top: 15px;
+    font-size: 16px;
+    color: #00203FFF;
+  
+  }
+  button{
+    margin-top: 15px;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    background-color: #00203FFF;
+    color: #ADEFD1FF;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+}
+
+#cartsection{
+
+
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 400px;
+  height: 100vh;
+  /* background-color: rgb(173, 239, 209); */
+  background-color: white;
+  z-index: 99;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+
+
+  .heading{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45%;
+    h1{
+      font-size: 24px;
+      /* font-weight: 500; */
+      color: #00203FFF;
+      /* margin: 20px; */
+      text-transform: uppercase;
+    }
+    img{
+      height: 25px;
+      cursor: pointer;
+    }
+  }
+  .cartitemcontainer{
+    display: flex;
+    flex-direction: column;
+    /* background-color: #00203FFF; */
+    width: 100%;
+    height: 80%;
+    /* overflow-y: scroll; */
+  }
+
+  .footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    .subtotal{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 45%;
+      /* background-color: aqua; */
+      h2{
+        font-size: 20px;
+        color: #00203FFF;
+
+      }
+      p{
+        color: black;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .checkout{
+    height: 50px;
+    width: 100%;
+    /* background-color: antiquewhite; */
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    button{
+      padding: 5px 10px;
+      width: 90%;
+      height: 45px;
+      font-size: 20px;
+      border: none;
+      background-color: #00203FFF;
+      color: #ADEFD1FF;
+      border-radius: 4px;
+    }
+  }
+
+}
+.logincard{
+  height: 500px;
+  max-width: 450px;
+  /* background-color: #ADEFD1FF; */
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 20px;
+  /* border: 1px solid rgba(211, 211, 211, 0.534); */
+  margin: 0 auto;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  border-radius: 10px;
+  .loginhead{
+    color: #00203FFF;
+    margin-left: 40px;
+    margin-top: 30px;
+    position: relative;
+  }
+  .loginhead::before{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 2px;
+    width: 40px;
+    height: 5px;
+    background-color: #ADEFD1FF;
+  }
+  h4{
+    margin-left: 40px;
+    font-weight: 600;
+  }
+
+  p{
+    margin-left: 40px;
+    font-weight: bold;
+    a{
+      text-decoration: underline;
+      color: #00203FFF;
+      margin-left: 5px;
+    }
+  }
+  button{
+    margin-left: 40px;
+    width: 130px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 18px;
+    /* font-weight: bold; */
+    background-color: #00203FFF;
+    color: #ADEFD1FF;
+    border: none;
+    border-radius: 4px;
+    
+  }
+}
+#inputbtn{
+  width: 65%;
+  height: 40px;
+  border: 1px solid black;
+  margin-left: 40px;
+  margin-top: 10px;
+  padding: 4px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+}
